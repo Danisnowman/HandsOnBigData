@@ -1,4 +1,4 @@
-# HandsOnBigData
+# HandsOnBigData TSDB
 ------------------
 
 ![InfluxDB](https://miro.medium.com/max/2560/1*QePvkDVkr7bcdgnOzeYyAQ.jpeg)
@@ -49,9 +49,8 @@ Debería aparecer lo siguiente:
 2.1 Luego ingresamos los datos correspondientes:
 
 
-```Organization Name: ufm
-Bucket Name: handson
-```
+``` Organization Name: ufm
+Bucket Name: handson ```
 
 ![setup initial user](src/2.png)
 
@@ -68,11 +67,12 @@ Bucket Name: handson
 #### 3. Comprobar los Buckets disponibles 📋
 
 
-``` Un bucket es una ubicación con nombre donde se almacenan los datos de las series temporales. Todos los buckets tienen una política de retención, una duración de tiempo que cada punto de datos persiste. Un bucket pertenece a una organización.
+```Un bucket es una ubicación con nombre donde se almacenan los datos de las series temporales. Todos los buckets tienen una política de retención, una duración de tiempo que cada punto de datos persiste. Un bucket pertenece a una organización.
 ```
 
 Para verificar rápidamente el bucket que hemos creado anteriormente, podemos navegar a:
-```Data > Buckets
+``` Data 
+> Buckets
 ```
 ![buckets](src/5.png)
 
