@@ -38,6 +38,9 @@ docker-compose up
 1.3 Chequeamos que el servicio esté funcionando bien
 Para eso abrimos el siguiente url: [http://localhost:8099](http://localhost:8099)
 
+Debería aparecer lo siguiente:
+
+![get started](src/1.png)
 
 ### 2. Ingresamos la configuración del usuario
 
