@@ -48,9 +48,10 @@ Debería aparecer lo siguiente:
 
 2.1 Luego ingresamos los datos correspondientes:
 
-
-``` Organization Name: ufm
-Bucket Name: handson ```
+```
+Organization name: ufm
+Bucket name: handson
+```
 
 ![setup initial user](src/2.png)
 
@@ -66,14 +67,17 @@ Bucket Name: handson ```
 
 #### 3. Comprobar los Buckets disponibles 📋
 
-
-```Un bucket es una ubicación con nombre donde se almacenan los datos de las series temporales. Todos los buckets tienen una política de retención, una duración de tiempo que cada punto de datos persiste. Un bucket pertenece a una organización.
+```
+Un bucket es una ubicación con nombre donde se almacenan los datos de las series temporales. Todos los buckets tienen una política de retención, una duración de tiempo que cada punto de datos persiste. Un bucket pertenece a una organización.
 ```
 
 Para verificar rápidamente el bucket que hemos creado anteriormente, podemos navegar a:
-``` Data 
-> Buckets
+
 ```
+Data > Buckets
+```
+
+
 ![buckets](src/5.png)
 
 #### 4. Cargar data en el bucket 📄
@@ -86,7 +90,8 @@ Cargaremos los datos utilizando el comando flux. Para ejecutar los comandos flux
 
 Cuando el editor este abierto, correremos el siguiente comando:
 
-```import "experimental/csv"
+```
+import "experimental/csv"
 
 relativeToNow = (tables=<-) =>
   tables
