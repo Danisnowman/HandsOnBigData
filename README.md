@@ -42,6 +42,12 @@ Debería aparecer lo siguiente:
 
 ![get started](src/1.png)
 
+1.4 Hacemos click en "Get Started"
+
 ### 2. Ingresamos la configuración del usuario
+
+Luego ingresamos los datos correspondientes
+![setup initial user](src/2.png)
+
 
 
